@@ -1,0 +1,24 @@
+body{
+    background-color: #e9f1f5;
+    text-align: center;
+    font-size: 37px;
+}
+
+.getValueButton {
+    color: #232323;
+    background: transparent;
+    border: 1px solid #232323;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .3em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px 34px 17px 39px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px;
+}
+
+.getValueButton:hover:before {
+    transform: translate(4px, 4px);
+}
